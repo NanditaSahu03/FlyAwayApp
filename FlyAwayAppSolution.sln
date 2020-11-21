@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infosys.TravelAway.Console", "Infosys.TravelAway.Console\Infosys.TravelAway.Console.csproj", "{A7D52077-3E3A-4570-A03A-0763171D0F50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infosys.TravelAway.DataAccessLayer", "Infosys.TravelAway.DataAccessLayer\Infosys.TravelAway.DataAccessLayer.csproj", "{FF1C9E1E-4E9D-4A4E-99D0-F9D21E842D61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infosys.TravelAway.Services", "Infosys.TravelAway.Services\Infosys.TravelAway.Services.csproj", "{C9DE4F43-D5D4-4D40-BC90-D8AB2BFC949A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Table Script", "Table Script", "{9EF456B2-BFED-4551-B447-E576CCECFDA3}"
+	ProjectSection(SolutionItems) = preProject
+		All Insert Statements.sql = All Insert Statements.sql
+		Infosys.TravelAwayAppDBScripts.sql = Infosys.TravelAwayAppDBScripts.sql
+		SqlQuery_2.sql = SqlQuery_2.sql
+		TravelAwayDBScript.sql = TravelAwayDBScript.sql
+		ufn_BookingBasedOnPackageName.sql = ufn_BookingBasedOnPackageName.sql
+		ufn_GetBookingOnGivenMonth.sql = ufn_GetBookingOnGivenMonth.sql
+		UFN_GetCategories.sql = UFN_GetCategories.sql
+		ufn_PackageByPackageCategoryId.sql = ufn_PackageByPackageCategoryId.sql
+		UFN_ValidateUser.sql = UFN_ValidateUser.sql
+		UFN_ViewAllCategoryPackage.sql = UFN_ViewAllCategoryPackage.sql
+		UFN_ViewAlllPackages.sql = UFN_ViewAlllPackages.sql
+		usp_AddBookingPackage.sql = usp_AddBookingPackage.sql
+		usp_AddPaymentDetails.sql = usp_AddPaymentDetails.sql
+		USP_UserRegisteration.sql = USP_UserRegisteration.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7D52077-3E3A-4570-A03A-0763171D0F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D52077-3E3A-4570-A03A-0763171D0F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D52077-3E3A-4570-A03A-0763171D0F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D52077-3E3A-4570-A03A-0763171D0F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF1C9E1E-4E9D-4A4E-99D0-F9D21E842D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1C9E1E-4E9D-4A4E-99D0-F9D21E842D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1C9E1E-4E9D-4A4E-99D0-F9D21E842D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1C9E1E-4E9D-4A4E-99D0-F9D21E842D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9DE4F43-D5D4-4D40-BC90-D8AB2BFC949A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DE4F43-D5D4-4D40-BC90-D8AB2BFC949A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DE4F43-D5D4-4D40-BC90-D8AB2BFC949A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DE4F43-D5D4-4D40-BC90-D8AB2BFC949A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {127E2C65-91D8-4BD5-887B-CC454360E00E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://myshcietatfs:8080/tfs/mstrack_training
+		SccProjectUniqueName0 = Infosys.TravelAway.Console\\Infosys.TravelAway.Console.csproj
+		SccProjectName0 = Infosys.TravelAway.Console
+		SccAuxPath0 = http://myshcietatfs:8080/tfs/mstrack_training
+		SccLocalPath0 = Infosys.TravelAway.Console
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = Infosys.TravelAway.DataAccessLayer\\Infosys.TravelAway.DataAccessLayer.csproj
+		SccProjectName1 = Infosys.TravelAway.DataAccessLayer
+		SccAuxPath1 = http://myshcietatfs:8080/tfs/mstrack_training
+		SccLocalPath1 = Infosys.TravelAway.DataAccessLayer
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = Infosys.TravelAway.Services\\Infosys.TravelAway.Services.csproj
+		SccProjectName2 = Infosys.TravelAway.Services
+		SccAuxPath2 = http://myshcietatfs:8080/tfs/mstrack_training
+		SccLocalPath2 = Infosys.TravelAway.Services
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
